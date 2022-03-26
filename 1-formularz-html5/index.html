@@ -17,19 +17,19 @@
         <label for="tel-number">Numer telefonu: </label><br>
         <input type="text" name="tel=number" id="tel-number"><br>
         <label for="miasto">Wybierz miasto</label><br>
-        <select  id="miasto" name="select"><br>
+        <select  id="miasto" name="select">
             <option value="">Kraków</option>
             <option value="">Warszawa</option>
             <option value="">Gdańsk</option>
         </select>
         <p>Wybierz płeć: </p><br>
-        <input type="radio" name="gender" id="gender-m">Mężczyzna<br>
-        <input type="radio" name="gender" id="gender-k">Kobieta<br>
+        <input type="radio" name="gender" id="gender-m">
+        <label for="gender-m">Mężczyzna</label>
+        <input type="radio" name="gender" id="gender-k">
+        <label for="gender-k">Kobieta</label>
         <p>Zgoda na dane osobowe: </p><br>
-        <input type="checkbox" name="checkbox" id="dane-osobowe-tak">
-        <label for="dane-osobowe-tak">Tak</label>
-        <input type="checkbox" name="checkbox" id="dane-osobowe-nie">
-        <label for="dane-osobowe-nie">Nie</label><br>
+        <input type="checkbox" name="checkbox-tak" id="dane-osobowe-tak">
+        <label for="dane-osobowe-tak">Tak</label><br>
         <label for="textarea">Wiadomość</label><br>
         <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea><br>
         <button type="submit">Prześlij</button><br>
